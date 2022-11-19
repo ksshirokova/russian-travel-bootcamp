@@ -1,0 +1,33 @@
+.footer {
+    display: grid;
+    grid-template-columns: min-content min-content min-content min-content min-content auto;
+
+    margin: 94px 48px 0;
+    padding-bottom: 24px;
+}
+
+@media (max-width: 1024px) {
+    .footer {
+
+        margin: 92px 48px 0;
+
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+
+        margin: 88px 24px 0;
+
+    }
+}
+
+@media (max-width: 320px) {
+    .footer {
+
+        margin: 64px 16px 0;
+
+        grid-template-columns: 0;
+        grid-template-rows: repeat(6, min-content);
+    }
+}
