@@ -1,8 +1,0 @@
-.cover{
-  height: 740px;
-}
-@media (max-width: 320px) {
-    .cover {
-        height: 200px;
-    }
-}

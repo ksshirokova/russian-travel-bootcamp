@@ -8,6 +8,13 @@
 
 }
 
+@media (max-width: 757px) {
+    .footer__copyright {
+        justify-self: flex-start;
+        margin: 16px 0 0 16px;
+    }
+}
+
 @media (max-width: 320px) {
     .footer__copyright {
         justify-self: flex-start;
