@@ -1,0 +1,6 @@
+.header__list{
+    margin: 0 0 0 18px;
+}
+.header__list:nth-child(1){
+    margin-left: 0;
+}

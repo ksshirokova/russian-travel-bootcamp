@@ -1,16 +1,17 @@
-.header__lang-link {
+.header__lang-link_on {
     color: white;
     font-size: 24px;
+    text-decoration: underline;
     line-height: 1.17;
-    text-decoration: none;
 }
 
-.header__lang-link:hover {
+.header__lang-link_on:hover {
     opacity: 0.8;
 }
 
 @media (max-width: 767px) {
-    .header__lang-link {
+    .header__lang-link_on {
+
         font-size: 18px;
     }
 }

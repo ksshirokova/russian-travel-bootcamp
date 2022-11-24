@@ -14,33 +14,39 @@
         <header class="header">
             <img class="header__logo" src="./sprint-3-images/header-logo.svg" alt="Логотип Россия">
             <ul class="header__links">
-                <li><a class="header__lang-link" href="#" target="_blank">Ru</a></li>
-                <li><a class="header__lang-link" href="#" target="_blank">En</a></li>
+                <li class="header__list"><a class="header__lang-link header__lang-link_on" href="#">Ru</a></li>
+                <li class="header__list"><a class="header__lang-link" href="#">En</a></li>
             </ul>
         </header>
         <main class="main">
-            <div class="lead">
+            <section class="lead">
                 <h1 class="lead__title">Путешествия по Росиии</h1>
                 <p class="lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
                 <img class="lead__image" src="./sprint-3-images/lead-polka.jpg" alt="Девушка в поезде">
-                <p class="lead__caption">ваша полка - верхняя</p>
-            </div>
+                <figure class="lead__caption">ваша полка - верхняя</figure>
+            </section>
             <section class="intro">
-                <h2 class="intro__title">Чего мы там не видели?</h2>
-                <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36%
-                    планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле, Россия
-                    — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато Путорана. А
-                    ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых перелетов.
-                    Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила их
-                    в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые
-                    интересные места, достойные вашего отпуска.</p>
-                <ul class="intro__list">
-                    <li>Часовых поясов 11</li>
-                    <li>Объектов природного наследия ЮНЕСКО 12</li>
-                    <li>Объектов культурного наследия ЮНЕСКО 16</li>
-                    <li>Природных заповедников 105</li>
-                    <li>Аэропортов 241</li>
-                </ul>
+                <div class="intro__container">
+                    <h2 class="intro__title">Чего мы там не видели?</h2>
+                    <p class="intro__text">По опросам ВЦИОМ, 95% россиян мечтают куда-нибудь поехать, но только 36%
+                        планируют провести отпуск в родной стране. Мол, чего мы тут, дома, не видели? На самом деле,
+                        Россия
+                        — это целая вселенная с ласковым морем юга, густыми лесами Саян и суровыми льдами плато
+                        Путорана. А
+                        ещё увидеть все эти красоты можно без миллионов на счету, загранпаспорта и многочасовых
+                        перелетов.
+                        Как, например, Вера Башмакова — смелая молодая мама, которая взяла в охапку троих детей, усадила
+                        их
+                        в свою «Ладу» и проехала 20 тысяч километров по родной стране. Мы выбрали и описали некоторые
+                        интересные места, достойные вашего отпуска.</p>
+                    <ul class="intro__list">
+                        <li>Часовых поясов<span class="intro__span-accent"> 11</span></li>
+                        <li>Объектов природного наследия ЮНЕСКО<span class="intro__span-accent"> 12</span></li>
+                        <li>Объектов культурного наследия ЮНЕСКО<span class="intro__span-accent"> 16</span></li>
+                        <li>Природных заповедников<span class="intro__span-accent"> 105</span></li>
+                        <li>Аэропортов<span class="intro__span-accent"> 241</span></li>
+                    </ul>
+                </div>
             </section>
             <section class="photo-grid">
                 <img class="photo-grid__item" src="./sprint-3-images/photo-grid-train.jpg" alt="Поезд">
@@ -53,13 +59,13 @@
                 <img class="photo-grid__item" src="./sprint-3-images/photo-grid-kondratiev.jpg"
                     alt="Пешеходный переход">
                 <img class="photo-grid__item" src="./sprint-3-images/photo-grid-kamchatka-1.jpg" alt="Камчатка">
-                <img class="photo-grid__item" src="./sprint-3-images/photo-grid-kamchatka-2.jpg" alt="">
+                <img class="photo-grid__item" src="./sprint-3-images/photo-grid-kamchatka-2.jpg" alt="Камчатка">
                 <img class="photo-grid__item" src="./sprint-3-images/photo-grid-baikal-2.jpg" alt="Байкал">
                 <img class="photo-grid__item" src="./sprint-3-images/photo-grid-ergaki.jpg" alt="Туман в горах">
             </section>
             <section class="places">
-                <div class="place">
-                    <h3 class="place__title">Куршская коса</h3>
+                <article class="place">
+                    <h2 class="place__title">Куршская коса</h2>
                     <div class="place__site">
                         <p class="place__url-heading">url</p>
                         <a class="place__link" href="http://park-kosa.ru" target="_blank">park-kosa.ru</a>
@@ -75,9 +81,9 @@
                             здешних мест исключает суету, окуная в спокойствие природы и запах стального, прохладного
                             моря.</p>
                     </div>
-                </div>
-                <div class="place">
-                    <h3 class="place__title">Кольский</h3>
+                </article>
+                <article class="place">
+                    <h2 class="place__title">Кольский</h2>
                     <div class="place__site">
                         <p class="place__url-heading">url</p>
                         <a class="place__link" href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy"
@@ -95,9 +101,9 @@
                             начинает сбываться с билетом
                             в Мурманск.</p>
                     </div>
-                </div>
-                <div class="place">
-                    <h3 class="place__title">Алтай</h3>
+                </article>
+                <article class="place">
+                    <h2 class="place__title">Алтай</h2>
                     <div class="place__site">
                         <p class="place__url-heading">url</p>
                         <a class="place__link" href="#" target="_blank">Facebook</a>
@@ -113,9 +119,9 @@
                             летают орлы, а на равнинах пасутся косули. И знаменитые манулы — тоже обитатели Алтайского
                             края.</p>
                     </div>
-                </div>
-                <div class="place">
-                    <h3 class="place__title">Зимний Байкал</h3>
+                </article>
+                <article class="place">
+                    <h2 class="place__title">Зимний Байкал</h2>
                     <div class="place__site">
                         <p class="place__url-heading">url</p>
                         <a class="place__link" href="https://vk.com/baikalmile"
@@ -131,9 +137,9 @@
                             к мотоциклу, и тандем старается развить как можно бóльшую скорость на льду. В марте 2019
                             года на фестивале «Байкальская миля» был поставлен мировой рекорд — 197.011 км/ч.</p>
                     </div>
-                </div>
-                <div class="place">
-                    <h3 class="place__title">Карелия</h3>
+                </article>
+                <article class="place">
+                    <h2 class="place__title">Карелия</h2>
                     <div class="place__site">
                         <p class="place__url-heading">url</p>
                         <a class="place__link" href="http://vodlozero.ru/" target="_blank">http://vodlozero.ru/</a>
@@ -150,27 +156,25 @@
                         <p class="place__paragraph"></p>
 
                     </div>
-                </div>
-                <div class="cover">
-                    <a class="cover__item" href="https://stampsy.com/na-elektrichkakh-do-baikala">
-                        <h4 class="cover__title">До Байкала «на собаках»</h4>
-                        <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до
-                            Байкала на электричках.</p>
-                    </a>
-                </div>
+                </article>
+            </section>
+            <section class="cover">
+                <a class="cover__item" href="https://stampsy.com/na-elektrichkakh-do-baikala">
+                    <h2 class="cover__title">До Байкала «на собаках»</h2>
+                    <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до
+                        Байкала на электричках.</p>
+                </a>
             </section>
         </main>
         <footer class="footer">
-
-
-            <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
-            <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
-            <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
-            <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
-            <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
-
-
-            <p class="footer__copyright">©&nbsp;2022.&nbsp;Широкова&nbsp;Ксения</p>
+            <nav class="footer__navigation">
+                <a class="footer__link" href="https://yandex.ru/maps" target="_blank">Карты</a>
+                <a class="footer__link" href="https://yandex.ru/pogoda" target="_blank">Погода</a>
+                <a class="footer__link" href="https://rasp.yandex.ru" target="_blank">Расписание</a>
+                <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Календарь</a>
+                <a class="footer__link" href="https://travel.yandex.ru" target="_blank">Путешествия</a>
+                <p class="footer__copyright">©&nbsp;2022.&nbsp;Широкова&nbsp;Ксения</p>
+            </nav>
         </footer>
     </div>
 
